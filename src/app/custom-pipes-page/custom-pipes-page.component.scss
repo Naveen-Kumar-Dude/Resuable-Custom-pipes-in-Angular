@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.container {
+  background-color: rgb(86, 142, 168);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grass {
+  width: 100%;
+  height: 30vh;
+  background-color: #795548;
+}
+
+.header-button {
+  margin-left: 1200px;
+  background-color: #ffeb3b;
+  cursor: pointer;
+}
+
+.heading {
+  align-items: center;
+  font-family: fantasy, papyrus;
+  font-size: 50px;
+  margin-top: 50px;
+  color: rgb(252, 249, 252);
+}
+
+.section {
+  font-family: cursive;
+  color: #fafafa;
+  margin: 15px 25px 15px 25px;
+  display: flex;
+  box-shadow: rgba(136, 171, 211, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.inner-card {
+  margin: 10px;
+}
+
+.mat-form-field-appearance-fill .mat-form-field-flex {
+  background-color: #fafafa;
+}
+
+.block-code {
+  //background: #eee;
+  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  max-width: 100%;
+  overflow: auto;
+  padding: 15px;
+}
+
+.column-flex {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.pipe-code-block {
+  background: #eee;
+  font-family: "Courier 10 Pitch", Courier, monospace;
+  line-height: 1.6;
+  max-width: 100%;
+  overflow: auto;
+  color: black;
+  border-radius: 2%;
+}
+
+::ng-deep .mat-form-field-placeholder{
+
+  color:red;
+}
+
+::ng-deep .mat-focused .mat-form-field-placeholder{
+
+  color:red;
+}
+//To change the color of underline
+
+::ng-deep .mat-form-field-underline .mat-form-field-ripple{
+
+  background-color:white;
+}
+
+::ng-deep .mat-form-field-underline{
+
+  background-color:white;
+}
+
+.footer-class {
+  background-image: url(./../../assets/images/pngkit_2d-png_3261436.png);
+  width: 100%;
+  height: 150px;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.credits {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+
+.name {
+  color: white;
+  font: italic small-caps bold 16px/2 cursive;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  text-decoration: none;
+}
+
+.red-text {
+  color: red;
+}
+
+.custom-pipe-inner-heading {
+  font-size: 18px;
+  font-style: italic;
+}

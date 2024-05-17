@@ -1,0 +1,67 @@
+<header class="container">
+    <h4 class="heading">Reusable Custom Pipes in Angular</h4>
+    <button mat-raised-button color="yellow" class="header-button" routerLink="/pipes" routerLinkActive="active">
+        go to pipes</button>
+</header>
+<router-outlet></router-outlet>
+<div class="container">
+    <div class="main-box">
+        <div>
+            <div>
+                <img class="bird-image jump" src="./../../assets/images/flappy bird.png" alt="image">
+            </div>
+            <div>
+                <img class="pipe-image" src="./../../assets/images/pipe_latest.png" alt="image">
+            </div>
+        </div>
+        <div class="description">
+            <p class="para">
+                <span class="block-heading">Pipes in angular</span>
+                <span> what are pipes in angular?... Pipes are simple functions to use in template expressions to accept
+                    an
+                    input value and return a transformed value. Pipes are useful because you can use them throughout
+                    your
+                    application, while only declaring each pipe once.Technically, pipes are simple functions designed to
+                    accept an input value, process, and return a transformed value as the output.
+                </span>
+            </p>
+
+
+            <p class="para"><span class="block-heading">Built-in Pipes in angular</span>
+                <span style="text-align: center;line-height: 25.5px;">
+                    Pipes in Angular are of two types: Built-in and Custom defined
+                    <dl>
+                        <dt>Built-in pipes:</dt>
+                        <dd>The built-in pipes are those which are already given to us by the Angular and are ready to
+                            use.
+                            <span>
+                                <pre class="block-code"><code>{{htmlCode}}</code></pre>
+                            </span>
+                        </dd>
+                    </dl>
+                </span>
+            </p>
+
+
+            <p class="para"><span class="block-heading">Custom defined pipes</span>
+                <span style="text-align: center;line-height: 25.5px;">
+                    The built-in pipes may not be sufficient to fulfill all our use cases. In such situations, we create
+                    our own pipes, known as custom pipes.
+                    we can use custom pipe in template expressions, the same way we use built-in pipes.Navigate to pipes
+                    page using 'Go to pipes' button to learn more about custom defined pipes.
+                </span>
+            </p>
+
+        </div>
+
+    </div>
+
+
+</div>
+<footer>
+    <div class="footer-class">
+        <span matTooltip="Hello" matTooltipPosition="above" class="credits">Design and Developed by &#169;
+            <span class="name"> Naveen Kumar Dude</span>
+        </span>
+    </div>
+</footer>
